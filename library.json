@@ -1,0 +1,11 @@
+{
+  "name": "NtcConvert",
+  "version": "1.0.0",
+  "description": "NTC conversion: ADC 0..4095 -> temperature in °C (10k@25, Beta 3435, divider 33k/NTC).",
+  "keywords": ["ntc", "thermistor", "adc", "temperature"],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": ["NtcConvert.h"]
+}
+

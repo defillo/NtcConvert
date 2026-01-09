@@ -1,0 +1,19 @@
+
+# NtcConvert
+
+Arduino / PlatformIO library for NTC temperature conversion.
+
+## Features
+- Input: ADC value (0..4095)
+- Output: Temperature in °C
+- NTC: 10k @ 25°C, Beta 3435
+- Divider: 33k (top) / NTC (bottom)
+- Tested with MCP3202 (12-bit)
+
+## Usage
+
+```cpp
+#include <NtcConvert.h>
+
+int adc = readAdc();
+float t = NtcConvert(adc);
